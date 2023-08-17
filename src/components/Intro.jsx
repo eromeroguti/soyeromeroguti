@@ -6,7 +6,7 @@ function Intro() {
   return (
     <div id="intro">
       <img
-        className="w-full h-screen object-cover object-left shadow-2xl blur-sm border-4 border-gray-900 "
+        className="w-full h-screen object-cover object-left shadow-2xl blur-sm border-4"
         src="./assets/eromero2.jpg"
         alt=""
       />
@@ -33,8 +33,8 @@ function Intro() {
               repeat={Infinity}
             />
           </h2>
-          <div className="">
-            <div className="flex flex-row gap-5 m-6">
+          <div className="p-11 m-11">
+            <div className="flex flex-row gap-5 mx-auto justify-end items-end">
               <a href="https://www.instagram.com/eromeroguti/" target="_blank" rel="instagram">
             <FaInstagram className="cursor-pointer" size={25} />
             </a>
